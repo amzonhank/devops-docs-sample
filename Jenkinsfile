@@ -11,7 +11,7 @@ pipeline {
     DOCKERHUB_CREDENTIAL_ID = 'dockerhub-id'
     GITHUB_CREDENTIAL_ID = 'github-id'
     KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
-    DOCKERHUB_NAMESPACE = '343317282@qq.com'
+    DOCKERHUB_NAMESPACE = 'baimo'
     GTIHUB_ACCOUNT = '343317282@qq.com'
     APP_NAME = 'devops-docs-sample'
   }
