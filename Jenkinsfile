@@ -100,7 +100,8 @@ pipeline {
       }
       steps {
         input(id: 'deploy-to-production', message: 'deploy to production?')
-        kubernetesDeploy(configs: 'deploy/prod/**', enableConfigSubstitution: true, kubeconfigId: "$KUBECONFIG_CREDENTIAL_ID")
+        kubernetesDeploy(configs: 'deploy/prod/docs-sample.yaml', enableConfigSubstitution: true, kubeconfigId: "$KUBECONFIG_CREDENTIAL_ID")
+        kubernetesDeploy(configs: 'deploy/prod/docs-sample-svc.yaml', enableConfigSubstitution: true, kubeconfigId: "$KUBECONFIG_CREDENTIAL_ID")
       }
     }
   }
