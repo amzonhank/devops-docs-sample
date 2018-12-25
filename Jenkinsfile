@@ -12,7 +12,7 @@ pipeline {
     GITHUB_CREDENTIAL_ID = 'github-id'
     KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
     DOCKERHUB_NAMESPACE = 'baimo'
-    GTIHUB_ACCOUNT = '343317282@qq.com'
+    GTIHUB_ACCOUNT = 'amzonhank'
     APP_NAME = 'devops-docs-sample'
   }
   stages {
